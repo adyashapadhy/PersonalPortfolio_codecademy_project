@@ -30,6 +30,7 @@ body {
     padding: 0 20px;
     margin: 0;
   }
+  
   .jumbotron {
     display: flex;
     align-items: center;
@@ -42,12 +43,12 @@ body {
   }
   
   .jumbotron h1 {
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 700;
     margin: 0;
     position: relative;
     top:50px;
-    left: 30px;
+    right: 10px;
     
     /*color: #fff;*/
   }
@@ -59,9 +60,8 @@ body {
     /*margin-bottom: 30px;*/
     /*float:right;*/
     position: relative;
-    left: 600px;
+    left: 300px;
     bottom: 0px;
-    border-radius: 50%;
     /*color: #fff;*/
     
   }
@@ -71,15 +71,11 @@ body {
     width: 100%;
   }
   
-  .col-sm-6 {
+  .col-md-6 {
     margin: 0 0 30px;
-    text-align: justify;
-    text-justify: inter-word;
     
   }
-  .col-sm-6 div {
-    font-size: 100px;
-  }
+  
   .center {
     display: block;
     margin-left: auto;
@@ -115,7 +111,7 @@ body {
   }
   
   figure {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   footer {
